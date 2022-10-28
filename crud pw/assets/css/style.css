@@ -1,0 +1,107 @@
+body {
+    background-color: #e9edf9;
+  }
+  
+  .navbar {
+    position: absolute;
+    height: 100vh;
+    background-color: #2a2135;
+    padding: 24px;
+    color: #848294;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    transition-property: all;
+    transition-duration: 200ms;
+    transition-timing-function: ease-in-out;
+  }
+  
+  .navbar:hover {
+    padding-right: 200px;
+  }
+  
+  .navbar a {
+    height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .navbar a span {
+    position: absolute;
+    width: 100px;
+    left: -100px;
+    opacity: 0;
+    transition-property: all;
+    transition-duration: 200ms;
+    transition-timing-function: ease-out;
+    text-align: left;
+  }
+  
+  .navbar:hover a span {
+    opacity: 1;
+    left: 0px;
+    margin-left: 50px;
+  }
+  
+  .navbar a i {
+    width: 20px;
+  }
+  
+  .navbar a:hover {
+    cursor: pointer;
+    color: white;
+  }
+  
+  .active {
+    color: white;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  body{
+	margin:0;
+	padding:0;
+	font-family:"arial",heletica,sans-serif;
+	font-size:12px;
+    background: #2980b9 url('https://static.tumblr.com/03fbbc566b081016810402488936fbae/pqpk3dn/MRSmlzpj3/tumblr_static_bg3.png') repeat 0 0;
+	-webkit-animation: 10s linear 0s normal none infinite animate;
+	-moz-animation: 10s linear 0s normal none infinite animate;
+	-ms-animation: 10s linear 0s normal none infinite animate;
+	-o-animation: 10s linear 0s normal none infinite animate;
+	animation: 10s linear 0s normal none infinite animate;
+ 
+}
+ 
+@-webkit-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@-moz-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@-ms-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@-o-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
